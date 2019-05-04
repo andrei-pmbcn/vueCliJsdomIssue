@@ -1,34 +1,15 @@
 # testjsdom
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
+To produce the error, run:
 npm run test:unit
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+It should give the following message:
+
+"WEBPACK  Failed to compile with 1 error(s)
+
+Error in ./node_modules/canvas/build/Release/canvas.node
+
+  Module parse failed: Unexpected character '' (1:0)
+  You may need an appropriate loader to handle this file type.
+  (Source code omitted for this binary file)
+"
